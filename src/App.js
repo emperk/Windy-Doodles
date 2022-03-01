@@ -12,13 +12,23 @@ import Info from "./components/Info";
 import Litters from "./components/Litters";
 import Parents from "./components/Parents";
 
-import './App.css';
+import "./App.css";
 
 export default function App() {
   return (
     <>
       <div className="App">
-        <ul>
+          <h1>Windy's Doodles</h1>
+          <nav>
+            <div className="nav-links">
+              <Link to="/" className="indiv-link">Home</Link>
+              <Link to="/adopt" className="indiv-link">Adopt</Link>
+              <Link to="/info" className="indiv-link">More Info</Link>
+              <Link to="/litters" className="indiv-link">Litters</Link>
+              <Link to="/parents" className="indiv-link">Parents</Link>
+            </div>
+          </nav>
+        {/* <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -34,7 +44,7 @@ export default function App() {
           <li>
             <Link to="/parents">Parents</Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <Routes>
         <Route path="/adopt">
