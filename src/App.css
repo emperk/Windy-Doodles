@@ -58,9 +58,47 @@ table {
 
 .App {
   text-align: center;
+  display: flex;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   font-size: 4em;
   font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  margin: 4%;
 }
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.indiv-link {
+  font-family: 'Montserrat', sans-serif;
+  padding: 1%;
+}
+
+/* HEADER CSS & NAVIGATION ENDS */
+
+/* CONTAINER STARTS */
+
+.comp-container {
+  margin: 2%;
+}
+
+p {
+  font-family: 'Hubballi', sans-serif;
+}
+
+/* CONTAINER ENDS */
+
+
+
+
+
