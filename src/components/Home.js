@@ -2,11 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Home() {
-  // const history = useHistory();
-  // const routeToAdopt = () => {
-  //   history.push("/adopt")
-  // }
-
   return (
     <div className="comp-container">
       <header>
