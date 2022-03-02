@@ -54,12 +54,11 @@ html {
 
 /* reset code ENDS */
 
-/* HEADER CSS & NAVIGATION STARTS */
+/* main css STARTS */
 
 .App {
   text-align: center;
   display: flex;
-  margin: 2%;
 }
 
 header {
@@ -68,38 +67,266 @@ header {
 }
 
 h1 {
-  font-size: 4em;
   font-weight: bold;
   font-family: 'Dancing Script', cursive;
-  margin: 4%;
-}
-
-.nav-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .indiv-link {
   font-family: 'Montserrat', sans-serif;
-  padding: 1%;
 }
-
-/* HEADER CSS & NAVIGATION ENDS */
-
-/* CONTAINER STARTS */
-
-/* .comp-container {
-  margin: 2%;
-} */
 
 p {
   font-family: 'Hubballi', sans-serif;
 }
 
-/* CONTAINER ENDS */
+
+/* main css ENDS */
 
 
 
+/* .nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+/*
+#header-title {
+  margin: 2%;
+}
+
+h1 {
+  font-size: 7em;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+
+.indiv-link {
+  font-family: 'Montserrat', sans-serif;
+  padding: 1%;
+  font-size: 1.6em;
+} */
+
+/* p {
+  font-family: 'Hubballi', sans-serif;
+  font-size: 1.8em;
+} */
 
 
+
+/* MEDIA QUERIES */
+
+/* FOR MOBILE DEVICES */
+
+@media(max-width: 480px) {
+
+/* HEADER CSS & NAVIGATION STARTS */
+
+.App {
+  margin: 2%;
+}
+
+#header-title {
+  margin: 2%;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+.nav-links {
+  margin: 2%;
+}
+
+.indiv-link {
+  padding: 1%;
+  font-size: 1.3em;
+}
+
+/* HEADER CSS & NAVIGATION ENDS */
+
+/* TOP CONTAINER STARTS */
+
+.top-container {
+  margin: 2%;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+/* TOP CONTAINER ENDS */
+
+}
+
+/* FOR TABLETS, IPADS (LOW RESOLUTION) */
+
+@media(min-width: 481px) and (max-width: 767px) {
+
+/* HEADER CSS & NAVIGATION STARTS */
+
+.App {
+  margin: 3%;
+}
+
+#header-title {
+  margin: 2%;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+.nav-links {
+  margin: 2%;
+}
+
+.indiv-link {
+  padding: 1%;
+  font-size: 1.5em;
+}
+
+/* HEADER CSS & NAVIGATION ENDS */
+
+/* TOP CONTAINER STARTS */
+
+.top-container {
+  margin: 2%;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+/* TOP CONTAINER ENDS */
+
+}
+
+/* FOR TABLETS, IPADS (PORTRAIT MODE) */
+
+@media(min-width: 768px) and (max-width: 1024px) {
+
+/* HEADER CSS & NAVIGATION STARTS */
+
+.App {
+  margin: 3%;
+}
+
+#header-title {
+  margin: 2%;
+}
+
+h1 {
+  font-size: 9em;
+}
+
+.nav-links {
+  margin: 2%;
+}
+
+.indiv-link {
+  padding: 1%;
+  font-size: 2.5em;
+}
+
+/* HEADER CSS & NAVIGATION ENDS */
+
+/* TOP CONTAINER STARTS */
+
+.top-container {
+  margin: 2%;
+}
+
+p {
+  font-size: 2.5em;
+}
+
+/* TOP CONTAINER ENDS */
+
+} 
+
+/* FOR LAPTOPS AND DESKTOPS */
+
+@media(min-width: 1025px) and (max-width: 1280px) {
+
+/* HEADER CSS & NAVIGATION STARTS */
+
+.App {
+  margin: 3%;
+}
+
+#header-title {
+  margin: 2%;
+}
+
+h1 {
+  font-size: 12em;
+}
+
+.nav-links {
+  margin: 2%;
+}
+
+.indiv-link {
+  padding: 1%;
+  font-size: 3.3em;
+}
+
+/* HEADER CSS & NAVIGATION ENDS */
+
+/* TOP CONTAINER STARTS */
+
+.top-container {
+  margin: 2%;
+}
+
+p {
+  font-size: 3em;
+}
+
+/* TOP CONTAINER ENDS */
+
+}
+
+/* FOR LARGE SCREENS */
+
+@media(min-width: 1281px) {
+
+/* HEADER CSS & NAVIGATION STARTS */
+
+.App {
+  margin: 3%;
+}
+
+#header-title {
+  margin: 2%;
+}
+
+h1 {
+  font-size: 15em;
+}
+
+.nav-links {
+  margin: 2%;
+}
+
+.indiv-link {
+  padding: 1%;
+  font-size: 4em;
+}
+
+/* HEADER CSS & NAVIGATION ENDS */
+
+/* TOP CONTAINER STARTS */
+
+.top-container {
+  margin: 2%;
+}
+
+p {
+  font-size: 3.6em;
+}
+
+/* TOP CONTAINER ENDS */
+
+}
