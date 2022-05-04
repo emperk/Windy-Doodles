@@ -11,7 +11,7 @@ import Info from "./components/Info";
 import Litters from "./components/Litters";
 import Parents from "./components/Parents";
 
-import "./App.less";
+import "./App.css";
 
 export default function App() {
   return (
