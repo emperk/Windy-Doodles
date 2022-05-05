@@ -63,17 +63,21 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 1%;
+  padding: 1%;
+  min-height: 100px;
 }
 
 header {
   display: flex;
   flex-direction: column;
+  // min-height: 100px;
 }
 
 
-#header-title {
-  margin: 2%;
-}
+// #header-title {
+//   width: 200%
+// }
 
 // h1 {
 //   font-size: 7em;
@@ -82,10 +86,11 @@ header {
 // }
 
 h1.ant-typography {
-  font-size: 7em;
+  font-size: 10em;
   color: black;
   font-weight: bold;
-  font-family: 'Dancing Script', cursive
+  font-family: 'Dancing Script', cursive;
+  margin: 0.2em;
 }
 
 // .indiv-link {
@@ -104,229 +109,240 @@ h1.ant-typography {
   font-family: 'Montserrat', sans-serif;
 }
 
+.ant-menu-overflow {
+  display: flex;
+  justify-content: center;
+}
+
+.top-container {
+  margin: 1%;
+}
+
 p {
   font-family: 'Hubballi', sans-serif;
   font-size: 1.8em;
 }
 
 
-
 /* main css ENDS */
 
 
-/* MEDIA QUERIES */
 
-/* FOR MOBILE DEVICES */
 
-@media(max-width: 480px) {
 
-/* HEADER CSS & NAVIGATION STARTS */
+// /* MEDIA QUERIES */
 
-.App {
-  margin: 2%;
-}
+// /* FOR MOBILE DEVICES */
 
-#header-title {
-  margin: 2%;
-}
+// @media(max-width: 480px) {
 
-h1 {
-  font-size: 5em;
-}
+// /* HEADER CSS & NAVIGATION STARTS */
 
-.nav-links {
-  margin: 2%;
-}
+// .App {
+//   margin: 2%;
+// }
 
-.indiv-link {
-  padding: 1%;
-  font-size: 1.3em;
-}
+// #header-title {
+//   margin: 2%;
+// }
 
-/* HEADER CSS & NAVIGATION ENDS */
+// h1 {
+//   font-size: 5em;
+// }
 
-/* TOP CONTAINER STARTS */
+// .nav-links {
+//   margin: 2%;
+// }
 
-.top-container {
-  margin: 2%;
-}
+// .indiv-link {
+//   padding: 1%;
+//   font-size: 1.3em;
+// }
 
-p {
-  font-size: 1.3em;
-}
+// /* HEADER CSS & NAVIGATION ENDS */
 
-/* TOP CONTAINER ENDS */
+// /* TOP CONTAINER STARTS */
 
-}
+// .top-container {
+//   margin: 2%;
+// }
 
-/* FOR TABLETS, IPADS (LOW RESOLUTION) */
+// p {
+//   font-size: 1.3em;
+// }
 
-@media(min-width: 481px) and (max-width: 767px) {
+// /* TOP CONTAINER ENDS */
 
-/* HEADER CSS & NAVIGATION STARTS */
+// }
 
-.App {
-  margin: 3%;
-}
+// /* FOR TABLETS, IPADS (LOW RESOLUTION) */
 
-#header-title {
-  margin: 2%;
-}
+// @media(min-width: 481px) and (max-width: 767px) {
 
-h1 {
-  font-size: 5em;
-}
+// /* HEADER CSS & NAVIGATION STARTS */
 
-.nav-links {
-  margin: 2%;
-}
+// .App {
+//   margin: 3%;
+// }
 
-.indiv-link {
-  padding: 1%;
-  font-size: 1.5em;
-}
+// #header-title {
+//   margin: 2%;
+// }
 
-/* HEADER CSS & NAVIGATION ENDS */
+// h1 {
+//   font-size: 5em;
+// }
 
-/* TOP CONTAINER STARTS */
+// .nav-links {
+//   margin: 2%;
+// }
 
-.top-container {
-  margin: 2%;
-}
+// .indiv-link {
+//   padding: 1%;
+//   font-size: 1.5em;
+// }
 
-p {
-  font-size: 1.5em;
-}
+// /* HEADER CSS & NAVIGATION ENDS */
 
-/* TOP CONTAINER ENDS */
+// /* TOP CONTAINER STARTS */
 
-}
+// .top-container {
+//   margin: 2%;
+// }
 
-/* FOR TABLETS, IPADS (PORTRAIT MODE) */
+// p {
+//   font-size: 1.5em;
+// }
 
-@media(min-width: 768px) and (max-width: 1024px) {
+// /* TOP CONTAINER ENDS */
 
-/* HEADER CSS & NAVIGATION STARTS */
+// }
 
-.App {
-  margin: 3%;
-}
+// /* FOR TABLETS, IPADS (PORTRAIT MODE) */
 
-#header-title {
-  margin: 2%;
-}
+// @media(min-width: 768px) and (max-width: 1024px) {
 
-h1 {
-  font-size: 9em;
-}
+// /* HEADER CSS & NAVIGATION STARTS */
 
-.nav-links {
-  margin: 2%;
-}
+// .App {
+//   margin: 3%;
+// }
 
-.indiv-link {
-  padding: 1%;
-  font-size: 2.5em;
-}
+// #header-title {
+//   margin: 2%;
+// }
 
-/* HEADER CSS & NAVIGATION ENDS */
+// h1 {
+//   font-size: 9em;
+// }
 
-/* TOP CONTAINER STARTS */
+// .nav-links {
+//   margin: 2%;
+// }
 
-.top-container {
-  margin: 2%;
-}
+// .indiv-link {
+//   padding: 1%;
+//   font-size: 2.5em;
+// }
 
-p {
-  font-size: 2.5em;
-}
+// /* HEADER CSS & NAVIGATION ENDS */
 
-/* TOP CONTAINER ENDS */
+// /* TOP CONTAINER STARTS */
 
-} 
+// .top-container {
+//   margin: 2%;
+// }
 
-/* FOR LAPTOPS AND DESKTOPS */
+// p {
+//   font-size: 2.5em;
+// }
 
-@media(min-width: 1025px) and (max-width: 1280px) {
+// /* TOP CONTAINER ENDS */
 
-/* HEADER CSS & NAVIGATION STARTS */
+// } 
 
-.App {
-  margin: 3%;
-}
+// /* FOR LAPTOPS AND DESKTOPS */
 
-#header-title {
-  margin: 2%;
-}
+// @media(min-width: 1025px) and (max-width: 1280px) {
 
-h1 {
-  font-size: 12em;
-}
+// /* HEADER CSS & NAVIGATION STARTS */
 
-.nav-links {
-  margin: 2%;
-}
+// .App {
+//   margin: 3%;
+// }
 
-.indiv-link {
-  padding: 1%;
-  font-size: 3.3em;
-}
+// #header-title {
+//   margin: 2%;
+// }
 
-/* HEADER CSS & NAVIGATION ENDS */
+// h1 {
+//   font-size: 12em;
+// }
 
-/* TOP CONTAINER STARTS */
+// .nav-links {
+//   margin: 2%;
+// }
 
-.top-container {
-  margin: 2%;
-}
+// .indiv-link {
+//   padding: 1%;
+//   font-size: 3.3em;
+// }
 
-p {
-  font-size: 3em;
-}
+// /* HEADER CSS & NAVIGATION ENDS */
 
-/* TOP CONTAINER ENDS */
+// /* TOP CONTAINER STARTS */
 
-}
+// .top-container {
+//   margin: 2%;
+// }
 
-/* FOR LARGE SCREENS */
+// p {
+//   font-size: 3em;
+// }
 
-@media(min-width: 1281px) {
+// /* TOP CONTAINER ENDS */
 
-/* HEADER CSS & NAVIGATION STARTS */
+// }
 
-.App {
-  margin: 3%;
-}
+// /* FOR LARGE SCREENS */
 
-#header-title {
-  margin: 2%;
-}
+// @media(min-width: 1281px) {
 
-h1 {
-  font-size: 15em;
-}
+// /* HEADER CSS & NAVIGATION STARTS */
 
-.nav-links {
-  margin: 2%;
-}
+// .App {
+//   margin: 3%;
+// }
 
-.indiv-link {
-  padding: 1%;
-  font-size: 4em;
-}
+// #header-title {
+//   margin: 2%;
+// }
 
-/* HEADER CSS & NAVIGATION ENDS */
+// h1 {
+//   font-size: 15em;
+// }
 
-/* TOP CONTAINER STARTS */
+// .nav-links {
+//   margin: 2%;
+// }
 
-.top-container {
-  margin: 2%;
-}
+// .indiv-link {
+//   padding: 1%;
+//   font-size: 4em;
+// }
 
-p {
-  font-size: 3.6em;
-}
+// /* HEADER CSS & NAVIGATION ENDS */
 
-/* TOP CONTAINER ENDS */
+// /* TOP CONTAINER STARTS */
 
-}
+// .top-container {
+//   margin: 2%;
+// }
+
+// p {
+//   font-size: 3.6em;
+// }
+
+// /* TOP CONTAINER ENDS */
+
+// }
