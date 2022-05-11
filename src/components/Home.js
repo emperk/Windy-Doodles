@@ -51,3 +51,8 @@ export default function Home() {
   );
 } 
 
+// will need:
+  // 1. Mission Statement
+  // 2. Who We Are
+  // 3. Slogan
+  // 4. Why Choose Windy's Doodles?
