@@ -42,9 +42,9 @@ export default function Home() {
         </header>
         <div className="top-container">
           <Title level={2}>Family Doodles Raised with Love</Title>
-          <Paragraph>
+          <Paragraph.Item>
             In this text box here, I'll have information regarding Windy, her business, and how her business started.
-          </Paragraph>
+          </Paragraph.Item>
         </div>
       </div>
     </>
