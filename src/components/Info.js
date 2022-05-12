@@ -10,7 +10,7 @@ export default function Info() {
       <div className="main-container">
         <header>
           <div id="header-title">
-            <Title>Additional Information</Title>
+            <Title>Windy's Doodles</Title>
           </div>
           <Menu mode="horizontal" className="nav-links">
             <Link to="/">
@@ -41,8 +41,9 @@ export default function Info() {
           </Menu>
         </header>
         <div className="top-container">
+        <Title level={2}>Additional Information</Title>
           <Paragraph>
-            INFO PAGE. Doggo ipsum ruff doggorino very good spot ruff very taste wow, pats clouds. Ur givin me a spook corgo you are doing me a frighten pats, pupper thicc borkf bork, vvv most angery pupper I have ever seen. What a nice floof thicc clouds extremely cuuuuuute heckin angery woofer doggo, long water shoob you are doing me the shock long bois. Shibe doge smol doggo, length boy fat boi. Snoot smol heckin wow very biscit borking doggo big ol pupper, blop he made many woofs very jealous pupper.
+            This page will have miscellaneous information regarding doodles, poodles, and golden retrievers. Anything having to do with those respective breeds in general.
           </Paragraph>
         </div>
       </div>

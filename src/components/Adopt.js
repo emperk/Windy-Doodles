@@ -10,7 +10,7 @@ export default function Adopt() {
       <div className="main-container">
         <header>
           <div id="header-title">
-            <Title>How to Adopt a Puppy</Title>
+            <Title>Windy's Doodles</Title>
           </div>
           <Menu mode="horizontal" className="nav-links">
             <Link to="/">
@@ -41,8 +41,9 @@ export default function Adopt() {
           </Menu>
         </header>
         <div className="top-container">
+          <Title level={2}>How to Adopt a Puppy</Title>
           <Paragraph>
-            ADOPT PAGE. Doggo ipsum ruff doggorino very good spot ruff very taste wow, pats clouds. Ur givin me a spook corgo you are doing me a frighten pats, pupper thicc borkf bork, vvv most angery pupper I have ever seen. What a nice floof thicc clouds extremely cuuuuuute heckin angery woofer doggo, long water shoob you are doing me the shock long bois. Shibe doge smol doggo, length boy fat boi. Snoot smol heckin wow very biscit borking doggo big ol pupper, blop he made many woofs very jealous pupper.
+            On this page, I'll have information regarding the adoption process & how to pick up your puppy.
           </Paragraph>
         </div>
       </div>

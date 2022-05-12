@@ -43,7 +43,7 @@ export default function Home() {
         <div className="top-container">
           <Title level={2}>Family Doodles Raised with Love</Title>
           <Paragraph>
-            In this text box here, I'll have information regarding Windy, her business, and how her business started.
+            On this page, I'll have information regarding Windy, her business, and how her business started.
           </Paragraph>
         </div>
       </div>
