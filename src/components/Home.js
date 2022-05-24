@@ -47,6 +47,9 @@ export default function Home() {
           </Paragraph>
         </div>
       </div>
+      <footer>
+        Windy's Doodles ©2022 Created by Windy & Emily Perkins  
+      </footer>
     </>
   );
 } 

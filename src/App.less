@@ -1,5 +1,12 @@
 @import '~antd/dist/antd.less';
 
+@main-bg-color: #E0DED4;
+@second-bg-color: #EEECE6;
+@main-txt-color: #483C32;
+@main-title-txt: 'Dawning of a New Day';
+@navbar-txt: 'Open Sans';
+@slogan-txt: 'Quicksand';
+
 /* reset code STARTS */
 
 html, body, div, span, applet, object, iframe,
@@ -52,6 +59,13 @@ table {
 html {
   font-size:62.5%; 
   font-family: "Raleway";
+  background: @main-bg-color;
+  body {
+    background: @main-bg-color;
+  }
+    .App {
+      background: @main-bg-color;
+    }
 }
 
 /* reset code ENDS */
@@ -66,6 +80,7 @@ html {
   margin: 1%;
   padding: 1%;
   min-height: 100px;
+
 }
 
 header {
@@ -85,11 +100,13 @@ header {
 //   font-family: 'Dancing Script', cursive;
 // }
 
+h1.ant-typography, .ant-menu-title-content, h2.ant-typography, div.ant-typography, footer {
+  color: @main-txt-color;
+}
+
 h1.ant-typography {
   font-size: 10em;
-  color: black;
-  font-weight: bold;
-  font-family: 'Dancing Script', cursive;
+  font-family: @main-title-txt;
   margin: 0.2em;
 }
 
@@ -106,7 +123,7 @@ h1.ant-typography {
 // }
 
 .ant-menu-title-content {
-  font-family: 'Montserrat', sans-serif;
+  font-family: @navbar-txt;
 }
 
 .ant-menu-overflow {
@@ -120,16 +137,17 @@ h1.ant-typography {
 
 h2.ant-typography {
   font-size: 3.3em;
-}
-
-div.ant-typography, h2.ant-typography {
-  font-family: 'Hubballi', sans-serif;
+  font-family: @slogan-txt;
 }
 
 div.ant-typography {
   font-size: 1.8em;
+  font-family: @navbar-txt;
 }
 
+footer {
+  font-family: @slogan-txt;
+}
 
 /* main css ENDS */
 
