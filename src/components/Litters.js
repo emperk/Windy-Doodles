@@ -1,8 +1,6 @@
 import React from "react";
-import { Menu, Typography } from 'antd';
+import { Menu } from 'antd';
 import { Link } from "react-router-dom";
-
-const { Title, Paragraph } = Typography;
 
 export default function Litters() {
   return (
@@ -10,7 +8,7 @@ export default function Litters() {
       <div className="main-container">
         <header>
           <div id="header-title">
-            <Title>Windy's Doodles</Title>
+            <h1>Windy's Doodles</h1>
           </div>
           <Menu mode="horizontal" className="nav-links">
             <Link to="/">
@@ -41,10 +39,10 @@ export default function Litters() {
           </Menu>
         </header>
         <div className="top-container">
-          <Title level={2}>My Litters</Title>
-          <Paragraph>
+          <h2>My Litters</h2>
+          <p>
             This page will have information about each puppy in each litter and whether or not they've been adopted.
-          </Paragraph>
+          </p>
         </div>
       </div>
     </>

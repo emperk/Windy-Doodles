@@ -1,8 +1,6 @@
 import React from "react";
-import { Menu, Typography } from 'antd';
+import { Menu } from 'antd';
 import { Link } from "react-router-dom";
-
-const { Title, Paragraph } = Typography;
 
 export default function Adopt() {
   return (
@@ -10,7 +8,7 @@ export default function Adopt() {
       <div className="main-container">
         <header>
           <div id="header-title">
-            <Title>Windy's Doodles</Title>
+            <h1>Windy's Doodles</h1>
           </div>
           <Menu mode="horizontal" className="nav-links">
             <Link to="/">
@@ -41,10 +39,10 @@ export default function Adopt() {
           </Menu>
         </header>
         <div className="top-container">
-          <Title level={2}>How to Adopt a Puppy</Title>
-          <Paragraph>
+          <h2>How to Adopt a Puppy</h2>
+          <p>
             On this page, I'll have information regarding the adoption process & how to pick up your puppy.
-          </Paragraph>
+          </p>
         </div>
       </div>
     </>

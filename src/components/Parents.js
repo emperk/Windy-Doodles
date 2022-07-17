@@ -1,8 +1,6 @@
 import React from "react";
-import { Menu, Typography } from 'antd';
+import { Menu } from 'antd';
 import { Link } from "react-router-dom";
-
-const { Title, Paragraph } = Typography;
 
 export default function Parents() {
   return (
@@ -10,7 +8,7 @@ export default function Parents() {
       <div className="main-container">
         <header>
           <div id="header-title">
-            <Title>Windy's Doodles</Title>
+            <h1>Windy's Doodles</h1>
           </div>
           <Menu mode="horizontal" className="nav-links">
             <Link to="/">
@@ -41,10 +39,10 @@ export default function Parents() {
           </Menu>
         </header>
         <div className="top-container">
-          <Title level={2}>Meet the Parents!</Title>
-          <Paragraph>
+          <h2>Meet the Parents!</h2>
+          <p>
             This page will have information regarding the parents. As of right now, that would be Wren & Charlie. There is no other "stud" at the moment. Information like genetics, their parents, what percent poodle & golden retriever they are & so on.
-          </Paragraph>
+          </p>
         </div>
       </div>
     </>
