@@ -40,8 +40,21 @@ export default function Adopt() {
         </header>
         <div className="top-container">
           <h2>How to Adopt a Puppy</h2>
+          <h3>The Adoption Process</h3>
+          <h4>1. Contact Windy</h4>
           <p>
-            On this page, I'll have information regarding the adoption process & how to pick up your puppy.
+            We would like you to first apply for adoption. To do that, we ask that you email Windy. Below, we have her business email.
+          </p>
+          <p>
+            Email: windy.perkins@windysdoodles.com
+          </p>
+          <h4>2. Our Vetting Process</h4>
+          <p>
+            Something about how we double check who is buying a puppy and how we protect our puppies.
+          </p>
+          <h4>3. Choosing & Reserving a Puppy</h4>
+          <p>
+            Something about genetics and how some owners are very specific about the color and coat they're wanting for their dog. Since there's not a guarantee on the ratio of black to tan colored puppies or if there will be a brown puppy in the mix, we will advertise the current litters on the Litters tab.
           </p>
         </div>
       </div>
