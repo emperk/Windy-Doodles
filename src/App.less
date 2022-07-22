@@ -5,7 +5,8 @@
 @main-txt-color: #483C32;
 @main-title-txt: 'Dawning of a New Day';
 @navbar-txt: 'Open Sans';
-@slogan-txt: 'Quicksand';
+@slogan-txt: 'Cormorant SC';
+@reg-txt: 'Raleway';
 
 /* reset code STARTS */
 
@@ -89,7 +90,6 @@ header {
   // min-height: 100px;
 }
 
-
 #header-title {
   padding: 2em;
   margin: 2em;
@@ -112,8 +112,13 @@ h2, h3, h4 {
   font-family: @slogan-txt;
 }
 
-.ant-menu-title-content {
+.ant-menu-title-content, footer {
   font-family: @navbar-txt;
+  font-weight: bold;
+}
+
+h2, h3, h4, p {
+  padding: 1vh;
 }
 
 .ant-menu-overflow {
@@ -126,25 +131,47 @@ h2, h3, h4 {
 }
 
 h2 {
-  font-size: 3.3em;
+  font-size: 4.3em;
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 3.5em;
 }
 
 h4 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 p {
-  font-size: 1.8em;
-  font-family: @navbar-txt;
+  font-size: 1.9em;
+  font-family: @reg-txt;
 }
 
 footer {
-  font-family: @slogan-txt;
+  font-size: 1em;
 }
+
+.parent-divs {
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.indiv-parent {
+  padding: 2%;
+  max-width: 50%;
+}
+
+#wren-img {
+  width: 20%;
+}
+
+#loki-img {
+  width: 14%;
+}
+
+
 
 /* main css ENDS */
 
