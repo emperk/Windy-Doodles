@@ -1,8 +1,6 @@
 import React from "react";
-import { Menu, Typography } from 'antd';
+import { Menu } from 'antd';
 import { Link } from "react-router-dom";
-
-const { Title, Paragraph } = Typography;
 
 export default function Home() {
   return (
@@ -10,7 +8,7 @@ export default function Home() {
       <div className="main-container">
         <header>
           <div id="header-title">
-            <Title>Windy's Doodles</Title>
+            <h1>Windy's Doodles</h1>
           </div>
           <Menu mode="horizontal" className="nav-links">
             <Link to="/">
@@ -41,12 +39,24 @@ export default function Home() {
           </Menu>
         </header>
         <div className="top-container">
-          <Title level={2}>Family Doodles Raised with Love</Title>
-          <Paragraph>
-            On this page, I'll have information regarding Windy, her business, and how her business started.
-          </Paragraph>
+          {/* mission statement */}
+          <h2>Family Doodles Raised with Love</h2>
+          <h3>Why Choose Us?</h3>
+          <p>
+            We believe in raising puppies with care, love, and attention. We believe in doing our research and making sure every need is taken care of and accounted for.
+          </p>
+          <h3>About Windy & Windy's Doodles</h3>
+          <p>
+            Something here about Windy and her friend. Something here about my mom falling in love with doodles and saving her money to get Wren. Something here about my mom deciding she would breed Wren and build a business for breeding doodles (hopefully all kinds in the future!)
+          </p>
+          <p>
+            Something here about how Windy's Doodles is currently run.
+          </p>
         </div>
       </div>
+      <footer>
+        Windy's Doodles ©2022 Created by Windy & Emily Perkins  
+      </footer>
     </>
   );
 } 

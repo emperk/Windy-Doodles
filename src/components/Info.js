@@ -1,8 +1,6 @@
 import React from "react";
-import { Menu, Typography } from 'antd';
+import { Menu } from 'antd';
 import { Link } from "react-router-dom";
-
-const { Title, Paragraph } = Typography;
 
 export default function Info() {
   return (
@@ -10,7 +8,7 @@ export default function Info() {
       <div className="main-container">
         <header>
           <div id="header-title">
-            <Title>Windy's Doodles</Title>
+            <h1>Windy's Doodles</h1>
           </div>
           <Menu mode="horizontal" className="nav-links">
             <Link to="/">
@@ -41,10 +39,10 @@ export default function Info() {
           </Menu>
         </header>
         <div className="top-container">
-        <Title level={2}>Additional Information</Title>
-          <Paragraph>
+        <h2>Additional Information</h2>
+          <p>
             This page will have miscellaneous information regarding doodles, poodles, and golden retrievers. Anything having to do with those respective breeds in general.
-          </Paragraph>
+          </p>
         </div>
       </div>
     </>
