@@ -1,5 +1,4 @@
 import React from "react";
-import { Menu } from 'antd';
 import { Link } from "react-router-dom";
 
 export default function Charlie() {
@@ -10,7 +9,7 @@ export default function Charlie() {
           <div id="header-title">
             <h1>Windy's Doodles</h1>
           </div>
-          <Menu mode="horizontal" className="nav-links">
+          {/* <Menu mode="horizontal" className="nav-links">
             <Link to="/">
               <Menu.Item className="indiv-link">
                 Home
@@ -36,7 +35,7 @@ export default function Charlie() {
                 Litters
               </Menu.Item>
             </Link>
-          </Menu>
+          </Menu> */}
         </header>
         <div className="top-container">
           <h2>Charlie Brown</h2>

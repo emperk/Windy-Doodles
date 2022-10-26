@@ -1,5 +1,4 @@
 import React from "react";
-import { Menu } from "antd";
 import { Link } from "react-router-dom";
 import WrenImg from "../images/IMG_2087.JPEG";
 import LokiImg from "../images/IMG_2866.jpeg";
@@ -12,7 +11,7 @@ export default function Parents() {
           <div id="header-title">
             <h1>Windy's Doodles</h1>
           </div>
-          <Menu mode="horizontal" className="nav-links">
+          {/* <Menu mode="horizontal" className="nav-links">
             <Link to="/">
               <Menu.Item className="indiv-link">
                 Home
@@ -38,7 +37,7 @@ export default function Parents() {
                 Litters
               </Menu.Item>
             </Link>
-          </Menu>
+          </Menu> */}
         </header>
         <div className="top-container">
           <h2>Meet the Parents!</h2>

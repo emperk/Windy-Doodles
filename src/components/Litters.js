@@ -1,5 +1,4 @@
 import React from "react";
-import { Menu } from 'antd';
 import { Link } from "react-router-dom";
 import EbenezerImg from "../images/ebenezer.jpeg";
 import CharlieImg from "../images/charlie.jpeg";
@@ -16,7 +15,7 @@ export default function Litters() {
           <div id="header-title">
             <h1>Windy's Doodles</h1>
           </div>
-          <Menu mode="horizontal" className="nav-links">
+          {/* <Menu mode="horizontal" className="nav-links">
             <Link to="/">
               <Menu.Item className="indiv-link">
                 Home
@@ -42,14 +41,15 @@ export default function Litters() {
                 Litters
               </Menu.Item>
             </Link>
-          </Menu>
+          </Menu> */}
         </header>
         <div className="top-container">
           <h2>My Litters</h2>
           <div className="litter-divs">
             <div className="current-litter">
               <h2>Christmas 2022 Litter</h2>
-              <p>Please click on the puppy name for more information!</p>
+              <p>This litter has 5 boys & 1 girl!</p>
+              <p>Please click on the puppy name for in depth information!</p>
               <div id="ebenezer-div" className="indiv-litter">
                 <Link to="/litters/ebenezer2022">
                   <h3>Ebenezer Scrooge</h3>

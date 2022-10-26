@@ -1,8 +1,16 @@
-import React from "react";
-import { Menu } from 'antd';
+import * as React from 'react';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import Box from '@mui/material/Box';
 import { Link } from "react-router-dom";
 
 export default function Home() {
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
   return (
     <>    
       <div className="main-container">
@@ -10,7 +18,24 @@ export default function Home() {
           <div id="header-title">
             <h1>Windy's Doodles</h1>
           </div>
-          <Menu mode="horizontal" className="nav-links">
+          <Box sx={{ maxWidth: { xs: 320, sm: 480 }, bgcolor: 'background.paper' }}>
+            <Tabs
+              value={value}
+              onChange={handleChange}
+              variant="scrollable"
+              scrollButtons={false}
+              aria-label="scrollable prevent tabs example"
+            >
+              <Tab label="Item One" />
+              <Tab label="Item Two" />
+              <Tab label="Item Three" />
+              <Tab label="Item Four" />
+              <Tab label="Item Five" />
+              <Tab label="Item Six" />
+              <Tab label="Item Seven" />
+            </Tabs>
+          </Box>
+          {/* <Menu mode="horizontal" className="nav-links">
             <Link to="/">
               <Menu.Item className="indiv-link">
                 Home
@@ -36,7 +61,7 @@ export default function Home() {
                 Litters
               </Menu.Item>
             </Link>
-          </Menu>
+          </Menu> */}
         </header>
         <div className="top-container">
           {/* mission statement */}
